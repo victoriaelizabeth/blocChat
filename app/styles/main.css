@@ -1,0 +1,15 @@
+body {
+	width: 1400px;
+	height: 800px;
+	background-color: rgba(127,127,127,0.2);
+}
+
+
+.room-list {
+	position: absolute;
+	top: 40px;
+	width: 70px;
+	border: 9px solid red;
+    list-style-type: none;
+
+}
