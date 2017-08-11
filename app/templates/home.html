@@ -1,8 +1,10 @@
-<h1> Welcome to Bloc Chat! </h1>
-<ul class="room-list">
 
-    <h3>Rooms</h3>
-
-    <li ng-repeat="room in home.rooms track by $index"> Room {{ ($index + 1) }}</li>
-
-</ul>
+<div class="room">
+    <div>
+      <h1 class="text">Bloc Chat</h1>
+      <button type="button" class="roombutton" ng-click="home.addRoom()">New Room</button>
+    </div>
+    <div ng-repeat="room in home.rooms">
+        <h3 class="room-name" ng-click="home.setCurrentRoom(room)">{{ room.name }}</h3>
+    </div>
+</div>
