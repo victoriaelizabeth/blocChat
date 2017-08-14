@@ -1,0 +1,12 @@
+<section>
+    <div>
+        <h3>Set a Username</h3>
+    </div>
+    <div>
+        <h5>This name will appear when you send messages</h5>
+            <input type="text" name="input" autofocus ng-model="modal.username" required>
+    </div>
+    <div>
+        <button type="button" ng-click="modal.setUsername()" ng-disabled="modal.username == null">Set user</button>
+    </div>
+</section>
