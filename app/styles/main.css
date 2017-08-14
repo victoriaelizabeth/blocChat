@@ -1,12 +1,14 @@
 .text {
   margin-left: 1rem;
   color: navy;
+  font-family: "Impact";
 }
 
 .room-name {
   margin-left: .5rem;
   cursor: pointer;
-  color: navy
+  color: navy;
+  font-family: "Impact";
 }
 
 .roombutton {
@@ -42,7 +44,7 @@
   position: fixed;
   top: 0;
   left: 280px;;
-  width: 80%;
+  width: 60%;
   height: 100%;
   background-color: white;
   overflow: scroll;
@@ -50,6 +52,8 @@
 
 .messages-header {
   padding-left: 10px;
+  color: navy;
+  font-family: "Impact";
 }
 
 .messages-body {
@@ -63,6 +67,8 @@
   padding-left: 10px;
   padding-right: 10px;
   background-color: rgba(178, 37, 46, 0.4);
+  color: navy;
+  font-family: "Impact";
 
 }
 
@@ -84,6 +90,9 @@
   padding-bottom: 5px;
   display: inline-block;
   padding-left: 10px;
+  color: navy;
+  font-weight: bold;
+  font-family: "courier";
 }
 
 .message {
@@ -94,4 +103,9 @@
 
 .message-box {
     width: 800px;
+}
+
+.user {
+    font-family: "Impact";
+    color:navy;
 }
